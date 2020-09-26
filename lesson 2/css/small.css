@@ -8,9 +8,21 @@ Base document for all display properties */
 }
 
 /* body rules here */
+
+/* .content {
+     max-width: 960px;
+    
+} */
+
 body {
     font-family: Verdana;
     font-size: 16px;
+    max-width: 100%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: lightcyan;
+    padding: 1rem;
 }
 
 /* header rules here */
@@ -38,6 +50,7 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     background-color: lightcyan;
+    padding: 1rem auto;
    }
 
 div h3, div h4, figure, figcaption {
@@ -51,8 +64,7 @@ figcaption {
 p {
     text-align: left;
     width: 1fr;
-    padding: 0.5rem 0.5rem;
-    margin: 0.5rem 0.5rem;
+    padding: 1rem;
 }
 
 
