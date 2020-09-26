@@ -1,76 +1,55 @@
-/* Display set-up for small devices: phones.
-Base document for all display properties */
-
 * {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
-/* body rules here */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&display=swap');
 
-/* .content {
-     max-width: 960px;
-    
-} */
-
-body {
-    font-family: Verdana;
-    font-size: 16px;
+img {
     max-width: 100%;
+    text-align: center;
     margin: 0;
-    display: grid;
-    grid-template-columns: 1fr;
-    background-color: lightcyan;
+}
+
+header {
+    background-color: lightgreen;
+    font-size: 2rem;
+    font-family: "Roboto", Verdana;
+    text-align: center;
+
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: white;
+    font-size: 1.5rem;
     padding: 1rem;
 }
 
-/* header rules here */
-header {
-    background-color: #32e0c4;
-    padding: 1rem 2%;
-}
-
-header h1 {
-    margin: 0;
-    text-align: center;
-}
-
-header h2 {
-    margin: 0;
-    text-align: center;
-    color: whitesmoke;
-}
-
-
-/* Main rules here */
-
 main {
-    margin: 0;
     display: grid;
     grid-template-columns: 1fr;
-    background-color: lightcyan;
-    padding: 1rem auto;
-   }
-
-div h3, div h4, figure, figcaption {
+    background-color: antiquewhite;
     text-align: center;
-}
+    grid-gap: 25px;
+    margin: 5px auto;
+    font-family: "Montserrat", sans-serif;
 
-figcaption {
-    font-size: 0.8rem;
+
 }
 
 p {
     text-align: left;
-    width: 1fr;
-    padding: 1rem;
+    margin-bottom: 2rem;
 }
 
-
-/* Footer Rules */ 
 footer {
+    background-color: lightgreen;
     text-align: center;
-    padding: 1rem 2%;
-    background-color: #32e0c4;
+    padding: 1rem;
+
 }

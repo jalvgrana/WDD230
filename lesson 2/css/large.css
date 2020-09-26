@@ -1,17 +1,15 @@
-/* Large-size devices: large screen devices. 
-Rules adding on base document: small.css*/
-
 @media only screen and (min-width: 1028px) {
 
-  
-   
     main {
-        
         grid-template-columns: 1fr 1fr 1fr;
         grid-column: span 1;
-       
+        padding-left: 30px;
+        padding-right: 30px;
     }
+
+    .principle3 {
+        grid-column: span 1;
+    }
+
+
 }
-
-
-/* end of media query for medium-size devices*/
