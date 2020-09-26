@@ -1,8 +1,6 @@
-* {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
+* { -moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box; }
 
 /* body rules here */
 body {
@@ -12,7 +10,7 @@ body {
 
 /* header rules here */
 header {
-    background-color: #17a8e4;
+    background-color: #32e0c4;
     padding: 1rem 2%;
 }
 
@@ -25,8 +23,7 @@ header h2 {
 }
 
 nav {
-    background-color: #111;
-    ;
+    background-color: #111;;
 }
 
 nav ul {
@@ -44,27 +41,25 @@ nav li.active {
 
 nav a {
     display: block;
-    padding: .8rem 0;
-    /* 44 min height */
+    padding: .8rem 0; /* 44 min height */
     text-align: center;
     text-decoration: none;
 }
 
 nav a:hover {
-    background-color: #444;
+    background-color: #444; 
 }
 
 /* main rules here */
 main {
     padding: 1rem 2%;
-    display: block;
-    /* for users with old IE versions */
+    display: block; /* for users with old IE versions */
 
 }
 
 main h1 {
-    /* for changes just in the h1 of the main and not header */
-    color: #17a8e4;
+    /* for changes just in the h1 of the main and not header */ 
+    color:#0d7377;
 }
 
 main figure img {
@@ -82,9 +77,9 @@ main figcaption {
 }
 
 footer {
-    text-align: center;
-    padding: 1rem 2%;
-    background-color: #19a8e4;
+text-align: center;
+padding: 1rem 2%;
+background-color: #32e0c4;
 }
 
 
@@ -95,3 +90,6 @@ footer {
     display: table;
     clear: both;
 }
+
+/*Chosen palette of colors: 206664. 
+See at https://colorhunt.co/palette/206664*/
