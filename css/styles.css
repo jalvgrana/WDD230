@@ -49,6 +49,10 @@ footer a {
     color: white;
 }
 
+hr {
+    width: 700px;
+}
+
 footer a:hover {
     color: red;
 }
