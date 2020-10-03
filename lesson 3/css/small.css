@@ -1,0 +1,110 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+}
+
+/*----------- HEADER --------------*/
+header {
+    background-color: #BAD1CD;
+    padding: .5rem 2%;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+/*----------- NAVIGATION --------------*/
+nav {
+    /*    background-color: #666;*/
+    background-color: #8332AC;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: flex;
+    color: #eee;
+    padding: .5rem 0;
+    text-decoration: none;
+    font-size: .9rem;
+    text-align: center;
+    justify-content: center;
+}
+
+
+nav ul li a:hover {
+    background-color: #aaa;
+    color: #333;
+}
+
+nav ul li.active a {
+    background-color: #000;
+    color: #fff;
+}
+
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%;
+    min-height: 10rem;
+}
+
+.logo, .persona1, .persona2, .color {
+    display: flex;
+    justify-content: center;
+    margin: 5% auto;
+   
+}
+
+.heading {
+    font-family: "Monsterrat";
+    
+}
+
+.text {
+    font-family: "Merriweather sans";
+}
+
+.typography {
+    margin: 5% auto;
+}
+
+
+
+/*----------- FOOTER --------------*/
+footer {
+    /*    background-color: #ddd;*/
+    background-color: #BAD1CD;
+    padding: .5rem 2%;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
