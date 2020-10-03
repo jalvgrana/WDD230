@@ -69,16 +69,19 @@ main {
     min-height: 10rem;
 }
 
-.logo, .persona1, .persona2, .color {
+.logo,
+.persona1,
+.persona2,
+.color {
     display: flex;
     justify-content: center;
     margin: 5% auto;
-   
+
 }
 
 .heading {
     font-family: "Monsterrat";
-    
+
 }
 
 .text {
