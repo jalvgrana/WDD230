@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Teller</title>
+
+    <!-- CSS style links-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <!-- Importing fonts-->
+<!--    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat&display=swap" rel="stylesheet">-->
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather+Sans&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <picture>
+            <img src="images/Weather%20Teller%20-128-jpg.png" alt="logo">
+        </picture>
+        <section class="headings">
+            <h1>Weather Teller</h1>
+            <div class="motto">Telling you the weather... <span class="right">right!</span></div>
+        </section>
+    </header>
+
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+
+    </nav>
+
+    <main class="preston">
+        <h2>Preston, Idaho</h2>
+        
+        <div class="placeholder">
+            <p>Hero Image / Weather Summary</p>
+        </div>
+        
+        <div class="placeholder">
+            <p>5 Day Forecast</p>
+        </div>
+        
+        <div class="placeholder">
+            <p>Article</p>
+        </div>
+        
+        <div class="placeholder">
+            <p>Contact Information</p>
+        </div>
+       
+       
+    </main>
+
+    <footer>
+        &copy; 2020 &bull; Jorge Alvarez Grana &bull; BYU-Idaho WDD230 &bull;
+        <span class="footer-date">Date: <span id="currentdate"></span></span>
+        <script src="js/script.js"></script>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,155 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/* Common rules */
+
+body,
+main,
+footer {
+
+    padding: 0.5rem 2%;
+}
+
+
+/* Body */
+
+/*
+body {
+    font-size: 16px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+*/
+
+
+/* Header */
+
+header {
+    background-color: #f0f3bd;
+    padding: 5px 0;
+    display: flex;
+    /*
+    align-items: center;
+    justify-content: center;
+*/
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+header img {
+    float: left;
+    /*añadido*/
+    margin: 10px;
+    /*añadido*/
+    width: 80%;
+    height: auto;
+    color: transparent;
+    border-radius: 15%;
+}
+
+.headings h1 {
+    font-size: 2.2rem;
+    margin: 10px auto;
+}
+
+.motto {
+    /*    font-style: italic;*/
+    letter-spacing: 1pt;
+    color: forestgreen;
+    margin-left: 10px;
+    font-size: 1.1rem;
+    font-family: sans-serif
+}
+
+
+.right {
+    font-family: 'Lobster', cursive;
+}
+
+/* Navigation Bar*/
+
+nav button {
+    margin: 0.2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+nav {
+    background-color: #028090;
+    font-family: sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0.8rem 2%;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.9);
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+nav ul.hide {
+    display: none;
+}
+
+
+/* Main */
+
+main {
+    padding-bottom: 15px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.placeholder {
+    border: 1px solid;
+    background-color: antiquewhite;
+    /*    padding: 0 20px 0;*/
+    padding: 10px;
+    margin: 7px;
+    
+
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #f0f3bd;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
