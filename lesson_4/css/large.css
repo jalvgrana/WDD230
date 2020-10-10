@@ -17,8 +17,6 @@ background: linear-gradient(to bottom,  #05668d 0%,#04b6ed 99%); /* W3C, IE10+, 
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05668d', endColorstr='#04b6ed',GradientType=0 ); /* IE6-9 */
 
 
-
-
     }
     nav button {
         display: none;
@@ -41,8 +39,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05668d', end
         border-right: 1px solid rgba(0, 0, 0, 0.3);
         padding: 0.6rem 1rem;
     }
-
-}
 
 }
 
