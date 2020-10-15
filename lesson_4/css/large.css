@@ -1,7 +1,7 @@
 /* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 64rem) {
 
-        footer {
+      main, footer {
         max-width: 70rem;
         margin: auto;
     }
@@ -45,3 +45,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05668d', end
 /*end large */
 
 /* Validation: Errors on lines #14, 15, 17 due to Ultimate CSS Gradient */
+
+/*
+Updated: 20-10-15: main to adjust better to footer following advice from fellow-student.
+*/
