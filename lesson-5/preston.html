@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Teller</title>
+
+    <!-- CSS style links-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather+Sans&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="message">Saturday = Preston
+        Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</div>
+    <header>
+        <picture>
+            <img src="images/Weather%20Teller%20-128-jpg.png" alt="logo">
+        </picture>
+        <section class="headings">
+            <h1>Weather Teller</h1>
+            <div class="motto">Telling you the weather... <span class="right">right!</span></div>
+        </section>
+    </header>
+
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+
+    </nav>
+
+    <!--   Content goes in here-->
+
+    <main>
+        <h1>Preston, Idaho</h1>
+        <section class="hero">
+            <img class="hero-image" src="images/lagos_2.jpg" alt="Lagos">
+            <div class="weather-summary">
+                <h5 class="text-box">Weather Summary</h5>
+                <p class="text-box">High: 13&deg;C</p>
+                <p class="text-box">Low: -5&deg;C</p>
+                <p class="text-box">Wind: 10 km/h</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <h2>Five Day Forecast</h2>
+        <!-- Source for Icons: https://www.iconfinder.com/iconsets/weather-and-forecast-free-->
+
+
+        <section class="forecast">
+            <div>
+                <h5>Monday</h5>
+                <img src="images/sunny.png" alt="sunny">
+                <p>10&deg;C</p>
+            </div>
+
+            <div>
+                <h5>Tuesday</h5>
+                <img src="images/cold.png" alt="cold">
+                <p>-5&deg;C</p>
+            </div>
+
+            <div>
+                <h5>Wednesday</h5>
+                <img src="images/rain.png" alt="rain">
+                <p>7&deg;C</p>
+            </div>
+
+            <div>
+                <h5>Thursday</h5>
+                <img src="images/snow.png" alt="snow">
+                <p>-1&deg;C</p>
+            </div>
+
+            <div>
+                <h5>Friday</h5>
+                <img src="images/thunder.png" alt="thunder">
+                <p>10&deg;C</p>
+            </div>
+        </section>
+
+        <div class="placeholder">
+            <img class="bulleye" src="images/ojo-buey-pe%C3%B1a-mea_400.png" alt="peña_mea">
+            <h2 class="text-bulleye">Article</h2>
+            <p class="text-bulleye">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae eligendi debitis, distinctio ad, rerum numquam odit dicta. Repellendus reiciendis, illo incidunt facilis, sit odio alias mollitia modi voluptatibus nesciunt consequatur, blanditiis in animi minima nisi pariatur totam labore. Dignissimos, reiciendis omnis delectus asperiores explicabo, numquam reprehenderit quidem amet, harum aperiam placeat quibusdam eius labore libero error nam neque! Sapiente ipsum quo cumque itaque, ullam amet placeat iure praesentium, perferendis voluptate officia est, quidem totam similique dicta quas ducimus omnis veritatis beatae fuga eum mollitia. Quia unde fugiat cupiditate consectetur, error quod! Repellat, error esse! Rem deleniti, repellendus iusto alias aut assumenda? Aspernatur est maiores eaque, dolores libero quibusdam explicabo et vero tenetur, fugit corporis natus odio laborum! Praesentium perspiciatis natus maiores provident culpa a unde molestiae impedit dicta, aspernatur optio dolorem quis. Dolorem praesentium laborum quibusdam laboriosam dolorum id illo a recusandae, vero, soluta neque necessitatibus optio nulla rerum, inventore.</p>
+        </div>
+
+        <section class="placeholder">
+
+            <h2>Contact Us</h2>
+
+            <section class="grid-contactus">
+
+                <div class="address">
+                    <h4>Address:</h4>
+                    <p> The Weather Center <br>
+                        123 Main Street. <br>
+                        Franklin, MI 8765</p>
+                </div>
+
+                <div class="phone">
+                    <h4>Phone:</h4>
+                    <p>(801) 555-1234</p>
+                    <h4>Email:</h4>
+                    <p>contact@ yoururl.com</p>
+                </div>
+
+                <div class="map">
+                    <img src="images/preston-2.jpg" alt="preston-map">
+                </div>
+
+            </section>
+        </section>
+
+    </main>
+
+    <footer>
+        &copy; 2020 &bull; Jorge Alvarez Grana &bull; BYU-Idaho WDD230 &bull;
+        <span class="footer-date">Date: <span id="currentdate"></span></span>
+        <script src="js/script.js"></script>
+    </footer>
+</body>
+
+</html>
