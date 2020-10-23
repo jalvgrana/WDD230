@@ -16,9 +16,6 @@ background: -webkit-linear-gradient(top,  #05668d 0%,#04b6ed 99%); /* Chrome10-2
 background: linear-gradient(to bottom,  #05668d 0%,#04b6ed 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05668d', endColorstr='#04b6ed',GradientType=0 ); /* IE6-9 */
 
-
-
-
     }
     nav button {
         display: none;
