@@ -1,0 +1,16 @@
+h1, picture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    margin: 100px 0;
+}
+
+[data-src] {
+    min-width: 50px;
+    min-height: 50px;
+    border: 1px solid pink;
+}
