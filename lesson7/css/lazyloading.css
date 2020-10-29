@@ -1,4 +1,4 @@
-h1, picture {
+h1, h2, picture {
     display: flex;
     flex-direction: column;
     justify-content: center;
