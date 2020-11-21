@@ -1,0 +1,59 @@
+h1 {
+    color: mediumpurple;
+    font-family: 'Bree Serif', serif;
+    font-weight: 800;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h2 {
+    color: mediumpurple;
+    font-family: 'Bree Serif', serif;
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: "Open Sans";
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5px;
+    text-align: center;
+    background-color: lightgrey;
+    box-shadow: 0px 0px 30px 10px #B7B5B7;
+    padding: 30px;
+}
+
+.cards img {
+    width: 75%;
+    box-shadow: 0px 0px 20px 10px grey; 
+}
+
+.cards section {
+    background: lightsteelblue;
+    border: 1px solid darkblue;
+     padding-bottom: 15px;    
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+@media only screen and (min-width: 35rem) {
+    .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);    
+    }
+}
+
+@media only screen and (min-width: 64rem) {
+    .cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);    
+    }
+}
+
