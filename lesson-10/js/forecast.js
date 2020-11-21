@@ -11,7 +11,7 @@ const d = new Date();
 	weekday[5] = "Firday";
 	weekday[6] = "Saturday";
 
-	const apiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5816861&appid=ecc2a14865c0e91eab93612d2db7f58c&units=imperial";
+	const apiURL = "//api.openweathermap.org/data/2.5/forecast?id=5816861&appid=ecc2a14865c0e91eab93612d2db7f58c&units=imperial";
 
 	fetch(apiURL)
 	    .then((response) => response.json())
