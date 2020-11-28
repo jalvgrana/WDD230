@@ -2,135 +2,133 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="favicon.ico">
-    <title>Weather Teller</title>
-    <!-- CSS style links-->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="favicon.ico">
+	<title>Weather Teller</title>
+	<!-- CSS style links-->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/small.css">
+	<link rel="stylesheet" href="css/medium.css">
+	<link rel="stylesheet" href="css/large.css">
 
-    <!--    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather+Sans&family=Montserrat&display=swap" rel="stylesheet">-->
+	<!--    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather+Sans&family=Montserrat&display=swap" rel="stylesheet">-->
 </head>
 
 <body>
-    <div id="message">Saturday = Preston
-        Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</div>
-    <header>
-        <picture>
-            <img src="images/Weather%20Teller%20-128-jpg.png" alt="logo">
-        </picture>
-        <section class="headings">
-            <h1>Weather Teller</h1>
-            <div class="motto">Telling you the weather... <span class="right">right!</span></div>
-        </section>
-    </header>
+	<div id="message">Saturday = Preston
+		Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</div>
+	<header>
+		<picture>
+			<img src="images/Weather%20Teller%20-128-jpg.png" alt="logo">
+		</picture>
+		<section class="headings">
+			<h1>Weather Teller</h1>
+			<div class="motto">Telling you the weather... <span class="right">right!</span></div>
+		</section>
+	</header>
 
-    <nav class="clearfix">
-        <button onclick="toggleMenu()">&#9776; Menu</button>
-        <ul id="primaryNav" class="hide">
-            <li><a href="#">Home</a></li>
-            <li class="active"><a href="#">Preston</a></li>
-            <li><a href="#">Soda Springs</a></li>
-            <li><a href="#">Fish Haven</a></li>
-            <li><a href="#">Storm Center</a></li>
-            <li><a href="#">Gallery</a></li>
-        </ul>
+	<nav class="clearfix">
+		<button onclick="toggleMenu()">&#9776; Menu</button>
+		<ul id="primaryNav" class="hide">
+			<li><a href="#">Home</a></li>
+			<li class="active"><a href="#">Preston</a></li>
+			<li><a href="#">Soda Springs</a></li>
+			<li><a href="#">Fish Haven</a></li>
+			<li><a href="#">Storm Center</a></li>
+			<li><a href="#">Gallery</a></li>
+		</ul>
 
-    </nav>
+	</nav>
 
-    <!--   Content goes in here-->
+	<!--   Content goes in here-->
 
-    <main>
-        <h1>Preston, Idaho</h1>
-        <section class="hero">
-            <!--Previous hero-image:-->
-            <!--      <img class="hero-image" src="images/lagos_2.jpg" alt="Lagos">-->
-            <picture class="hero-image">
-                <!-- <source media="(max-width: 200px)" srcset="images/franklinOriginal200.jpg">-->
-                <source media="(max-width: 500px)" srcset="images/franklinOriginal500.jpg">
-                <source media="(max-width: 800px)" srcset="images/franklinOriginal800.jpg">
-                <source media="(max-width: 1000px)" srcset="images/franklinOriginal1000.jpg">
-                <img src="images/franklinOriginal1000.jpg" alt="hero-image-source">
-            </picture>
-            
-            <div class="weather-summary">
-      
-        <h4 class="weather-summary-white"><strong>Weather Summary</strong></h4>
-        <p class="weather-summary-white">
-        Currently: <span class="weather-summary-yellow" id="currentWeather"></span><br>
-        High: <span class="weather-summary-yellow" id="currentTemp">00</span> <br>
-        Wind Chill: <span class="weather-summary-yellow" id="windChill"></span> <br>
-        Humidity: <span class="weather-summary-yellow" id="humidity"></span> <br>
-        Wind Speed: <span class="weather-summary-yellow" id="windSpeed"></span> <br>
-            
-        </p>
-        
-        
-                
-            </div>
-        </section>
+	<main>
+		<h1>Preston, Idaho</h1>
+		<section class="hero">
+			<!--Previous hero-image:-->
+			<!--      <img class="hero-image" src="images/lagos_2.jpg" alt="Lagos">-->
+			<picture class="hero-image">
+				<!-- <source media="(max-width: 200px)" srcset="images/franklinOriginal200.jpg">-->
+				<source media="(max-width: 500px)" srcset="images/franklinOriginal500.jpg">
+				<source media="(max-width: 800px)" srcset="images/franklinOriginal800.jpg">
+				<source media="(max-width: 1000px)" srcset="images/franklinOriginal1000.jpg">
+				<img src="images/franklinOriginal1000.jpg" alt="hero-image-source">
+			</picture>
 
-        <hr>
+			<div class="weather-summary">
 
-        <h2>Five Day Forecast</h2>
-        <!-- Source for Icons: https://www.iconfinder.com/iconsets/weather-and-forecast-free-->
+				<h4 class="weather-summary-white"><strong>Weather Summary</strong></h4>
+				<p class="weather-summary-white">
+					Currently: <span class="weather-summary-yellow" id="currentWeather"></span><br>
+					High: <span class="weather-summary-yellow" id="currentTemp">00</span> <br>
+					Wind Chill: <span class="weather-summary-yellow" id="windChill"></span> <br>
+					Humidity: <span class="weather-summary-yellow" id="humidity"></span> <br>
+					Wind Speed: <span class="weather-summary-yellow" id="windSpeed"></span> <br>
+
+				</p>
 
 
-       <section class="forecast">
-           
-           <div id="weatherforecast"></div>
 
-        </section>
+			</div>
+		</section>
 
-        <hr>
+		<hr>
+		<!--  *****************************************  -->
 
-        <div class="placeholder">
-            <img class="bulleye" src="images/ojo-buey-pe%C3%B1a-mea_400.png" alt="peña_mea">
-            <h2 class="text-bulleye">Article</h2>
-            <p class="text-bulleye">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae eligendi debitis, distinctio ad, rerum numquam odit dicta. Repellendus reiciendis, illo incidunt facilis, sit odio alias mollitia modi voluptatibus nesciunt consequatur, blanditiis in animi minima nisi pariatur totam labore. Dignissimos, reiciendis omnis delectus asperiores explicabo, numquam reprehenderit quidem amet, harum aperiam placeat quibusdam eius labore libero error nam neque! Sapiente ipsum quo cumque itaque, ullam amet placeat iure praesentium, perferendis voluptate officia est, quidem totam similique dicta quas ducimus omnis veritatis beatae fuga eum mollitia. Quia unde fugiat cupiditate consectetur, error quod! Repellat, error esse! Rem deleniti, repellendus iusto alias aut assumenda? Aspernatur est maiores eaque, dolores libero quibusdam explicabo et vero tenetur, fugit corporis natus odio laborum! Praesentium perspiciatis natus maiores provident culpa a unde molestiae impedit dicta, aspernatur optio dolorem quis. Dolorem praesentium laborum quibusdam laboriosam dolorum id illo a recusandae, vero, soluta neque necessitatibus optio nulla rerum, inventore.</p>
-        </div>
 
-        <section class="placeholder">
+		<p class="grid-header" id="townName"></p>
+		<section id="weatherforecast">
+			<div id="theDay"></div>
+		</section>
 
-            <h2>Contact Us</h2>
 
-            <section class="grid-contactus">
+		<!--  *****************************************  -->
 
-                <div class="address">
-                    <h4>Address:</h4>
-                    <p> The Weather Center <br>
-                        123 Main Street. <br>
-                        Franklin, MI 8765</p>
-                </div>
+		<hr>
 
-                <div class="phone">
-                    <h4>Phone:</h4>
-                    <p>(801) 555-1234</p>
-                    <h4>Email:</h4>
-                    <p>contact@ yoururl.com</p>
-                </div>
+		<div class="placeholder">
+			<img class="bulleye" src="images/ojo-buey-pe%C3%B1a-mea_400.png" alt="peña_mea">
+			<h2 class="text-bulleye">Article</h2>
+			<p class="text-bulleye">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae eligendi debitis, distinctio ad, rerum numquam odit dicta. Repellendus reiciendis, illo incidunt facilis, sit odio alias mollitia modi voluptatibus nesciunt consequatur, blanditiis in animi minima nisi pariatur totam labore. Dignissimos, reiciendis omnis delectus asperiores explicabo, numquam reprehenderit quidem amet, harum aperiam placeat quibusdam eius labore libero error nam neque! Sapiente ipsum quo cumque itaque, ullam amet placeat iure praesentium, perferendis voluptate officia est, quidem totam similique dicta quas ducimus omnis veritatis beatae fuga eum mollitia. Quia unde fugiat cupiditate consectetur, error quod! Repellat, error esse! Rem deleniti, repellendus iusto alias aut assumenda? Aspernatur est maiores eaque, dolores libero quibusdam explicabo et vero tenetur, fugit corporis natus odio laborum! Praesentium perspiciatis natus maiores provident culpa a unde molestiae impedit dicta, aspernatur optio dolorem quis. Dolorem praesentium laborum quibusdam laboriosam dolorum id illo a recusandae, vero, soluta neque necessitatibus optio nulla rerum, inventore.</p>
+		</div>
 
-                <div class="map">
-                    <img src="images/preston-2.jpg" alt="preston-map">
-                </div>
+		<section class="placeholder">
 
-            </section>
-        </section>
+			<h2>Contact Us</h2>
 
-    </main>
+			<section class="grid-contactus">
 
-    <footer>
-        &copy; 2020 &bull; Jorge Alvarez Grana &bull; BYU-Idaho WDD230 &bull;
-        <span class="footer-date">Date: <span id="currentdate"></span></span>
-        <script src="js/script.js"></script>
-    </footer>
-    <script src="js/webfont.js"></script>
-    <script src="js/windchill.js"></script>
-    <script src="js/weather.js"></script>
-    <script src="js/forecast.js"></script>
-</body>
+				<div class="address">
+					<h4>Address:</h4>
+					<p> The Weather Center <br>
+						123 Main Street. <br>
+						Franklin, MI 8765</p>
+				</div>
 
-</html>
+				<div class="phone">
+					<h4>Phone:</h4>
+					<p>(801) 555-1234</p>
+					<h4>Email:</h4>
+					<p>contact@ yoururl.com</p>
+				</div>
+
+				<div class="map">
+					<img src="images/preston-2.jpg" alt="preston-map">
+				</div>
+
+			</section>
+		</section>
+
+	</main>
+
+	<footer>
+		&copy; 2020 &bull; Jorge Alvarez Grana &bull; BYU-Idaho WDD230 &bull;
+		<span class="footer-date">Date: <span id="currentdate"></span></span>
+		<script src="js/script.js"></script>
+	</footer>
+	<script src="js/webfont.js"></script>
+	<script src="js/windchill.js"></script>
+	<script src="js/weather.js"></script>
+	<script src="js/mi_forecast.js"></script>
+</body></html>
