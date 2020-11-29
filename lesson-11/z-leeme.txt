@@ -1,0 +1,2 @@
+falta arreglar la web index que el grid, en pequeño se sale
+falta poner en tamaño medio el flex

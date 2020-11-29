@@ -187,6 +187,7 @@ hr {
 	margin: 50px auto;
 }
 
+/*
 .threetowns {
 		display: grid;
 		grid-template-columns: 1fr;
@@ -200,6 +201,28 @@ hr {
 
 .threetowns section img {
 	width: 50%;
+}
+*/
+
+.threetowns {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-gap: 10px;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.threetowns section {
+	background-color: #f0f3bd;
+	border: solid 1px #999;
+}
+
+.threetowns img {
+	width: 75%;
+	margin-bottom: 5%;
+	/*  border: solid 2px #4D648D;*/
+	/*  margin: 20px;*/
+
 }
 
 
@@ -355,13 +378,14 @@ form label.top input:required:valid {
 
 /* Events */
 
-.events-preston, .events-sodasprings {
+.events-preston,
+.events-sodasprings {
 	margin: 40px auto;
 	padding: 15px 0;
-	background-color:#028090;
-    color: white;
-    font-size: 1.2rem;
-    text-align: center;
+	background-color: #028090;
+	color: white;
+	font-size: 1.2rem;
+	text-align: center;
 }
 
 
@@ -370,6 +394,7 @@ form label.top input:required:valid {
 section.contact-us h2 {
 	text-align: center;
 }
+
 section.grid-contactus {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -383,7 +408,7 @@ section.grid-contactus div {
 
 .map {
 	width: 80%;
-	margin:auto;
+	margin: auto;
 	padding-bottom: 25px;
 }
 

@@ -81,6 +81,15 @@
 		margin: 0px 10px;
 		padding: 0.5rem;
 	}
+	
+	
+.threetowns  {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+
 
 }
 

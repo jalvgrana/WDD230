@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <title>Weather Teller</title>
+    <!-- CSS style links-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <!--    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather+Sans&family=Montserrat&display=swap" rel="stylesheet">-->
+</head>
+
+<body>
+    <div id="message">Saturday = Preston
+        Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</div>
+    <header>
+        <picture>
+            <img src="images/Weather%20Teller%20-128-jpg.png" alt="logo">
+        </picture>
+        <section class="headings">
+            <h1>Weather Teller</h1>
+            <div class="motto">Telling you the weather... <span class="right">right!</span></div>
+        </section>
+    </header>
+
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li class="active"><a href="gallery.html">Gallery</a></li>
+        </ul>
+
+    </nav>
+
+    <!--   Content goes in here-->
+
+    <div class="main">
+        <h2>Gallery</h2>
+        <div class="grid">
+
+            <figure>
+                <img src="images/300x400/fondo300x400.jpg" data-src="images/300x400/01-300x400.jpg" alt="image">
+                <figcaption>Stone Rustic House</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/300x400/fondo300x400.jpg" data-src="images/300x400/12-300x400.jpg" alt="image">
+                <figcaption>Rodiles Beach</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/300x400/fondo300x400.jpg" data-src="images/300x400/10-300x400.jpg" alt="image">
+                <figcaption>Night Photo</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/300x400/fondo300x400.jpg" data-src="images/300x400/13-300x400.jpg" alt="image">
+                <figcaption>Oviedo's Cathedral</figcaption>
+            </figure>
+
+
+            <figure>
+                <img src="images/300x400/fondo300x400.jpg" data-src="images/300x400/05-300x400.jpg" alt="image">
+                <figcaption>Prehistoric Drawings</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/300x400/fondo300x400.jpg" data-src="images/300x400/06-300x400.jpg" alt="image">
+                <figcaption>Cow and Woman</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/300x400/fondo300x400.jpg" data-src="images/300x400/07-300x400.jpg" alt="image">
+                <figcaption>Catedrais Beach</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/300x400/fondo300x400.jpg" data-src="images/300x400/02-300x400.jpg" alt="image">
+                <figcaption>Shepherd Dog</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/300x400/fondo300x400.jpg" data-src="images/300x400/09-300x400.jpg" alt="image">
+                <figcaption>In the Mountains</figcaption>
+            </figure>
+
+
+        </div>
+
+    </div>
+
+    <footer>
+        &copy; 2020 &bull; Jorge Alvarez Grana &bull; BYU-Idaho WDD230 &bull;
+        <span class="footer-date">Date: <span id="currentdate"></span></span>
+        <script src="js/script.js"></script>
+    </footer>
+    <script src="js/webfont.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/progressive-loading.js"></script>
+</body>
+
+</html>
+
+
+
+<!--
+
+<img src="images/fondo300x200.jpg" data-src="images/sunrise-300x200.jpg" alt="image">-->
