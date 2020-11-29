@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="favicon.ico">
+	<title>Weather Teller</title>
+	
+	<!-- CSS style links-->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/small.css">
+	<link rel="stylesheet" href="css/medium.css">
+	<link rel="stylesheet" href="css/large.css">
+
+</head>
+
+<body>
+	<div id="message">Saturday = Preston
+		Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</div>
+	<header>
+		<picture>
+			<img src="images/Weather%20Teller%20-128-jpg.png" alt="logo">
+		</picture>
+		<section class="headings">
+			<h1>Weather Teller</h1>
+			<div class="motto">Telling you the weather... <span class="right">right!</span></div>
+		</section>
+	</header>
+
+	<nav class="clearfix">
+		<button onclick="toggleMenu()">&#9776; Menu</button>
+		<ul id="primaryNav" class="hide">
+			<li class="active"><a href="index.html">Home</a></li>
+			<li><a href="preston.html">Preston</a></li>
+			<li><a href="sodasprings.html">Soda Springs</a></li>
+			<li><a href="fishhaven.html">Fish Haven</a></li>
+			<li><a href="stormcenter.html">Storm Center</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+		</ul>
+
+	</nav>
+
+	<!--   Content goes in here-->
+
+	<main>
+		<h1 class="index-header">Stay with us if you want to know about the weather!</h1>
+		<section class="hero">
+			
+			<picture class="hero-image">
+				<source media="(max-width: 500px)" srcset="images/index500.jpg">
+				<source media="(max-width: 800px)" srcset="images/index800.jpg">
+				<source media="(max-width: 1000px)" srcset="images/index1000.jpg">
+				<img src="images/index1000.jpg" alt="hero-image-source">
+			</picture>
+
+<!--
+			<div class="weather-summary">
+
+				<h4 class="weather-summary-white"><strong>Weather Summary</strong></h4>
+				<p class="weather-summary-white">
+					Currently: <span class="weather-summary-yellow" id="currentWeather"></span><br>
+					High: <span class="weather-summary-yellow" id="currentTemp">00</span> <br>
+					Wind Chill: <span class="weather-summary-yellow" id="windChill"></span> <br>
+					Humidity: <span class="weather-summary-yellow" id="humidity"></span> <br>
+					Wind Speed: <span class="weather-summary-yellow" id="windSpeed"></span> <br>
+
+				</p>
+			</div>
+-->
+		</section>
+
+		<hr>
+		
+		<section>
+			<div class="threetowns"></div>
+		</section>
+		
+		<!--  5 Day Weather Forecast  -->
+
+<!--
+		<p class="grid-header" id="townName"></p>
+		<section id="weatherforecast">
+			<div id="theDay"></div>
+		</section>
+
+		-->
+
+		
+
+		<!--  Coming Events  -->
+
+<!--
+		<section>
+			<div class="events-preston"></div>
+		</section>
+-->
+
+		<!--	Article -->
+
+<!--
+		<div class="placeholder">
+			<img class="photo-article" src="images/fish-haven-herox600.jpg" alt="festival">
+			<h2 class="text-bulleye">Fish Haven</h2>
+			<p class="text-bulleye">Fish Haven, originally named Rush Creek, is an unincorporated community along the shores of Bear Lake in Bear Lake County, Idaho, United States. It is 4 km (2.5 miles) north of the Utah border. Bear Lake is a natural freshwater lake on the Idaho–Utah border in the Western United States. About 109 square miles (280 km2) in size, it is split about equally between the two states; its Utah portion comprises the second-largest natural freshwater lake in Utah, after Utah Lake. The lake has been called the "Caribbean of the Rockies" for its unique turquoise-blue color, which is due to the refraction of calcium carbonate (limestone) deposits suspended in the lake. Its water properties have led to the evolution of several unique species of fauna that occur only within the lake. Bear Lake is over 250,000 years old. It was formed by fault subsidence that continues today, slowly deepening the lake along the eastern side. Originally named "Black Bear Lake" by Donald McKenzie, an explorer for the North West Fur Company who explored the lake in 1819, the name was later shortened to Bear Lake. The lake is a popular destination for tourists and sports enthusiasts, and the surrounding valley has gained a reputation for having high-quality raspberries. Bear Lake has become famous for the surrounding valley's crops of raspberries and for the annual Raspberry Days festival held in Garden City to celebrate the harvest of raspberries, generally during the first week of August. This event is said to bring thousands of people from all over the world and features rodeos, parades, fireworks, dances, a craft fair, "Miss Berry Princess contest", raspberry recipe cookoff, a talent show, fun run and concerts. Also worth mentioning is Bear Lake National Wildlife Refuge, located in southeast Idaho, seven miles (11 km) south of Montpelier. Surrounded by mountains, it lies in Bear Lake Valley at an elevation ranging from 5,925 feet (1,806 m) on the marsh to 6,800 feet (2,100 m) on the rocky slopes of Merkley Mountain. The refuge office is located in Montpelier. The 19,000-acre (77 km2) refuge is mainly made up of a bulrush marsh, open water, and flooded meadows of sedges, rushes, and grasses. Portions of the refuge include scattered grasslands and brush-covered slopes. Bear Lake Refuge encompasses what is locally referred to as Dingle Swamp or Dingle Marsh. Along with Bear Lake proper, the marsh was once part of a larger prehistoric lake that filled the valley. As it drained and receded, Dingle Marsh was reduced from 25,000 acres (100 km2) to less than 17,000 before it became part of the refuge.</p>
+			text source: https://en.wikipedia.org/wiki/Fish_Haven,_Idaho || https://en.wikipedia.org/wiki/Bear_Lake_(Idaho–Utah) ||
+			https://en.wikipedia.org/wiki/Bear_Lake_National_Wildlife_Refuge
+		</div>
+-->
+
+		<section class="contact-us">
+
+			<h2>Contact Us</h2>
+
+			<section class="grid-contactus">
+
+				<div class="address">
+					<h4>Address:</h4>
+					<p> The Weather Center <br>
+						123 Main Street. <br>
+						Rexburg, Idaho 87656</p>
+					<h4>Phone:</h4>
+					<p>(801) 555-1234</p>
+					<h4>Email:</h4>
+					<p>contact@weatherteller.com</p>
+					<a href="https://www.facebook.com" target="_blank"><img src="images/media/facebook.png" alt="facebook"></a>
+					<a href="https://www.pinterest.com" target="_blank"><img src="images/media/pinterest.png" alt="pinterest"></a>
+					<a href="https://www.twitter.com" target="_blank"><img src="images/media/twitter.png" alt="twitter"></a>
+					<a href="https://www.whatsapp.com" target="_blank"><img src="images/media/whatsapp.png" alt="whatsapp"></a>
+				</div>
+
+				<div class="map">
+					<img src="images/fishhaven-map.jpg" alt="preston-map">
+				</div>
+
+			</section>
+		</section>
+
+	</main>
+
+	<footer>
+		&copy; 2020 &bull; Jorge Alvarez Grana &bull; BYU-Idaho WDD230 &bull;
+		<span class="footer-date">Date: <span id="currentdate"></span></span>
+		<script src="js/script.js"></script>
+	</footer>
+	<script src="js/webfont.js"></script>
+<!--
+	<script src="js/windchill.js"></script>
+	<script src="js/weather-fishhaven.js"></script>
+-->
+	<script src="js/threetowns.js"></script>
+<!--	<script src="js/events-fishhaven.js"></script>-->
+</body>
+
+</html>
+
+
+<!--Code validation: three warnings considering to use <h2>-<h6>-->
