@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="favicon.ico">
+	<title>Tours</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Ranchers&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+
+	<!--CSS style-->
+	<link rel="stylesheet" href="css/00normalize.css">
+	<link rel="stylesheet" href="css/01small.css">
+	<link rel="stylesheet" href="css/02medium.css">
+	<link rel="stylesheet" href="css/03large.css">
+
+</head>
+
+<body>
+
+	<!--Header-->
+
+	<header>
+		<div>
+			<a href="index.html"><img src="images/logo/02logox150.png" alt="logo"></a>
+		</div>
+		<h1>Scoots</h1>
+
+	</header>
+
+	<!--Navigation Bar-->
+
+	<nav class="clearfix">
+		<button onclick="toggleMenu()">&#9776;</button>
+		<ul id="primaryNav" class="hide">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="02rentals.html">Rentals</a></li>
+			<li><a href="03reservations.html">Reservations</a></li>
+			<li class="active"><a href="04tours.html">Tours</a></li>
+			<li><a href="05contact.html">Contact</a></li>
+		</ul>
+	</nav>
+
+	<!--Main Content-->
+
+	<main>
+
+		<!--Start Contact content-->
+
+		<form method="get" action="07thanks.html">
+			<fieldset>
+				<legend>User Information: </legend>
+
+				<label class="top">Full Name* <input type="text" name="fname" pattern="[A-Za-z].{0,}" required></label>
+				<label class="top">E-mail* <input type="email" name="email" placeholder="your@email.com" required></label>
+				<label class="top">Telephone <input type="tel" name="phone" placeholder="123-5551-234"></label>
+				<label class="top">Type of Query
+					<select name="query">
+						<option value="">Select Type &#9662;</option>
+						<option value="makereservation">To Make a Reservation</option>
+						<option value="cancelreservation">To Cancel a Reservation</option>
+						<option value="generalquestin">General Question</option>
+						<option value="giveopinion">To Give an Opion</option>
+						<option value="other">Other</option>
+					</select>
+				</label>
+								
+			</fieldset>
+
+			<fieldset>
+				<legend>Comments: </legend>
+				<label class="top">Please, type here any other relevant information <br><br>
+					<textarea name="textarea" id="textarea" cols="60" rows="10" placeholder="Your Comments"></textarea>
+				</label>
+			</fieldset>
+
+			<input type="submit" value="Send Comment" class="btn-reservations btn1">
+
+		</form>
+
+
+
+		<!--End Contact content-->
+
+		<!--Social media links-->
+
+		<section class="social-media">
+			<a href="https://www.whatsapp.com" target="_blank"><img src="images/social-media/whatsapp.png" alt="whatsapp"></a>
+			<a href="https://www.facebook.com" target="_blank"><img src="images/social-media/facebook.png" alt="facebook"></a>
+			<a href="https://www.instagram.com" target="_blank"><img src="images/social-media/instagram.png" alt="instagram"></a>
+			<a href="https://www.pinterest.com" target="_blank"><img src="images/social-media/pinterest.png" alt="pinterest"></a>
+		</section>
+
+		<!--Contact Section-->
+
+		<section>
+			<div class="contact-us-grid">
+
+				<div class="contact-us-text">Address: <br><br> Calle Mayor s/n <br><br> San Miguel de Cozumel <br> Quintana Roo (Mexico) <br><br> Open: 9:00 - 21:00 <br> Monday to Saturday</div>
+
+				<div><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d21140.750137909425!2d-86.9411692630956!3d20.498356237755164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1608128148219!5m2!1ses!2sar" width="350" height="350" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" id="map"></iframe></div>
+
+				<div class="contact-us-text">Phone:<br> +(52) 555-123-456 <br><br> E-mail:<br> info@scoots.com <br><br> Fax:<br>+(52) 555-123-457 </div>
+
+
+			</div>
+
+		</section>
+
+	</main>
+
+	<footer>
+		&copy; 2020 | Jorge Alvarez Grana | BYU-Idaho WDD230 |
+		<span class="footer-date">Date: <span id="currentdate"></span></span>
+		<script src="js/scripts.js"></script>
+		<script src="js/rentals.js"></script>
+	</footer>
+	<div class="footer"></div>
+
+</body>
+
+</html>
+
+<!--Validated: just warning on using headings on sections-->
