@@ -69,7 +69,7 @@ fetch(apiURL2)
 				
 		//let townName = document.getElementById("townName").textContent = weatherInfo.city.name + ": Five Days Forecast";
 		
-		for (i = 0; i < mylist.length-12; i++) { // → 12, 20
+		for (i = 0; i < mylist.length-20; i++) { // → 12, 20
 		
 			let time = mylist[i].dt_txt;
 			if (time.includes('18:00:00')) {
