@@ -1,2 +1,4 @@
 <!--# jalvgrana.github.io-->
-My website on Git Hub
+This is the work for my class at BYU-Idaho WDD230 "Web Development Frontend I"
+
+
