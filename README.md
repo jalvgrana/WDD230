@@ -3,4 +3,4 @@
 
 <li><a href="https://jalvgrana.github.io/WDD230/" target="_blank">Weekly Projects</a</li>
 
-<li><a href="https://jalvgrana.github.io/WDD230/Scoots%20Project/" target="_blank"></a></li>
+<li><a href="https://jalvgrana.github.io/WDD230/Scoots%20Project/" target="_blank"></a>Final Project</li>
